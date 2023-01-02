@@ -1,0 +1,79 @@
+<?php get_header();?>
+    <!-- 1. Hero Section Starts -->
+    <header>
+        <div class="container flex-container flex-mobile-reverse">
+            <!-- 1.1 Left Area -->
+            <div class="left-area flex-item-50">
+                <!-- 1.1.1 Welcome Text as h2 -->
+                <h2 class="text-h2">Welcome to</h2>
+                <!-- 1.1.2 Title as h1 -->
+                <h1 class="text-h1"><span class="orange">Nisarul Amin Naim</span> World</h1>
+                <!-- 1.1.3 Subtitle as h4 -->
+                <h4 class="text-h4">Build Climber and Train Stopper</h4>
+                <!-- 1.1.4 Paragraph -->
+                <p class="text-p">You might saw me jumping, climbing buildings, and stopping trains. But nobody pays me a dime for that work. That's why I am learning and mastering web development. I will not stop until I become the Web Development Hero.</p>
+                <!-- 1.1.5 Call to action -->
+                <a class="btn" href="https://www.nisarul.com/">Hire Me</a>
+            </div>
+            <!-- 1.2 Right Area -->
+            <div class="right-area flex-item-50 align-items-end">
+                <!-- 1.2.1 Hero Image -->
+                <img class="img-100" src="<?php echo get_template_directory_uri(); ?>/img/hero-poster.png" alt="Nisarul Amin Naim">
+            </div>
+        </div>
+    </header>
+    <!-- 1. Hero Section Ends -->
+
+    <!-- 2. About section Starts -->
+    <section class="about">
+        <div class="container flex-container">
+            <!-- 2.1 Left Area -->
+            <div class="left-area flex-item-50 align-items-start">
+                <!-- 2.1.1 Hero Image -->
+                <img class="img-100" src="<?php echo get_template_directory_uri(); ?>/img/section-2-poster.png" alt="Nisarul Amin Naim">
+            </div>
+            <!-- 2.2 Right Area -->
+            <div class="right-area flex-item-50">
+                <!-- 2.2.1 Welcome Text as h2 -->
+                <h2 class="text-h2">Dream Big</h2>
+                <!-- 2.2.2 Title as h4 -->
+                <h4 class="text-h4">Become a web developer</h4>
+                <!-- 2.2.3 Paragraph -->
+                <p class="text-p">I already learned the basic HTML and CSS. I can build any simple website. I can even teach my grandma how to make simple website. My goal is to build 3 websites and learn advanced topics.</p>
+                <!-- 2.2.4 Call to action -->
+                <a class="btn" href="https://www.nisarul.com/">Get in Touch</a>
+            </div>
+        </div>
+    </section>
+    <!-- 2. About section Ends -->
+
+    <!-- 3. Experience Section Starts -->
+    <section class="experience">
+        <!-- 3.1 Title -->
+        <div class="container">
+            <h2 class="text-h2 text-center">Experiences</h2>
+        </div>
+        <!-- 3.2 Experience Card Container -->
+        <div class="container flex-container">
+            <!-- 3.2.1 Experience Card 1 -->
+            <div class="card card-left flex-item-50">
+                <h2 class="text-h1">Full Stack Web Developer</h2>
+                <h4 class="text-h4 orange">2021-Present | Pro Level Developer</h4>
+                <p class="text-p">I am the master of HTML, CSS and Javascript. I know everything needed to make a website function, efficient. I didn't stop with the web. I went beyond with most popular Javascript framework called Vue JS. I even know the deployment, server and security. I will give you 100% web solution.</p>
+            </div>
+            <!-- 3.2.2 Experience Card 2 -->
+            <div class="card card-right flex-item-50">
+                <h2 class="text-h1">Full Stack Web Developer</h2>
+                <h4 class="text-h4 orange">2021-Present | Pro Level Developer</h4>
+                <p class="text-p">I am the master of HTML, CSS and Javascript. I know everything needed to make a website function, efficient. I didn't stop with the web. I went beyond with most popular Javascript framework called Vue JS. I even know the deployment, server and security. I will give you 100% web solution.</p>
+            </div>
+        </div>
+    </section>
+    <!-- 3. Experience Section Ends -->
+
+    <!-- 4. Footer Section Starts -->
+    <footer>
+        <p class="text-p text-center">© Nisarul Amin Naim 2023, World University of Bangladesh.</p>
+    </footer>
+    <!-- 4. Footer Section Ends -->
+<?php get_footer();?>
